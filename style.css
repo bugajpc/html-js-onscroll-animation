@@ -16,11 +16,11 @@ section {
     filter: blur(0.2rem);
     transform: translateX(-100%);
     opacity: 0;
-    transition: all 1s;
 }
 
 .show {
     opacity: 1;
     filter: blur(0);
     transform: translateX(0);
+    transition: all 1s;
 }
